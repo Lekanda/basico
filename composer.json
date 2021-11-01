@@ -1,0 +1,19 @@
+{
+    "name": "lekanda/basico",
+    "description": "Base de proyecto con PHP-MVC, Gulp y SASS.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Models\\": "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "lekanda",
+            "email": "abernaolao@gmail.com"
+        }
+    ],
+    "require": {}
+}
